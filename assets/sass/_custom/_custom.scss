@@ -2,3 +2,14 @@
 // Custom style
 // ==============================
 // You can override the variables in _variables.scss to customize the style
+
+.post-toc {
+    top: 220;
+}
+
+
+$global-lineheight: 1.2 !default;
+
+// Serif font family of the site.
+$global-serif-font-family: 'Bree Serif', Georgia, Athelas, STHeiti, Microsoft Yahei, serif !default;
+

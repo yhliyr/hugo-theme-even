@@ -9,7 +9,7 @@ $theme-color-config: 'Default';
 
 // Default theme color map
 $theme-color-map: (
-  'Default': #c05b4d #f8f5ec,
+  'Default': #000 #f8f5ec,
   'Mint Green': #16982B #f5f5f5,
   'Cobalt Blue': #0047AB #f0f2f5,
   'Hot Pink': #FF69B4 #f8f5f5,
@@ -76,7 +76,7 @@ $global-headings: (
 
 // ========== Header ========== //
 // Padding of the site header.
-$header-padding: 20px 20px !default;
+$header-padding: 20px 0 20px 20px !default;
 
 // Font family: Chancery
 @font-face {
@@ -167,7 +167,7 @@ $post-toc-content: 15px !default;
 $post-toc-list-style: square !default;
 
 // Max screen media of the post toc.
-$toc-max-sreen-width: 2 * $post-toc-width + $post-toc-margin-left !default;
+$toc-max-sreen-width: 2 * $post-toc-width + $post-toc-margin-left -50 !default;
 
 // ========== Content ========== //
 // Headings anchor.

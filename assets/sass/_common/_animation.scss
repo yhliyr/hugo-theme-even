@@ -16,19 +16,17 @@
     left: 51%;
     right: 51%;
     background: $theme-color;
-    transition-duration: 0.2s;
-    transition-property: right, left;
-    transition-timing-function: ease-out;
+    // transition-duration: 0.2s;
+    // transition-property: right, left;
+    // transition-timing-function: ease-out;
   }
 
   &.active,
   &:active,
   &:focus,
   &:hover {
-    &:before {
-      right: 0;
-      left: 0;
-    }
+    font-weight: 600;
+    text-decoration: underline;
   }
 }
 
